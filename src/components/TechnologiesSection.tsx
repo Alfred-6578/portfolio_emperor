@@ -1,8 +1,6 @@
 const technologies = [
-  "Java", "Spring Boot", "Spring Security", "RESTful APIs", "PostgreSQL", 
-  "React", "MongoDB", "Swagger", "TypeScript", "MySQL", "JavaScript", 
-  "Postman", "AWS", "Git", "DynamoDB", "Hibernate", "JWT Authentication", 
-  "Docker", "Cloudinary"
+  "Flutter", "Dart", "Laravel", "Javascript", "Next.js", "CI/CD", "Docker", "RESTful APIs", "PostgreSQL", 
+  "React","TypeScript", "MySQL","Postman", "AWS", "Git", "JWT Authentication", "Cloudinary", "Node.js","Nest.js"
 ];
 
 const TechnologiesSection = () => {
