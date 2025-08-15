@@ -11,7 +11,7 @@ const TechnologiesSection = () => {
           Technologies
         </h2>
         
-        <div className="flex flex-wrap justify-center gap-4 max-w-5xl ">
+        <div className="flex flex-wrap justify-center gap-4 w-full">
           {technologies.map((tech, index) => (
             <span
               key={index}
