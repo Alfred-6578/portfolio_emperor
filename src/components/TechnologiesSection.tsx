@@ -117,7 +117,7 @@ const TechnologiesSection = () => {
                     <div className="absolute inset-0 bg-accent/20 rounded-full blur-lg scale-125 
                       opacity-0 group-hover:opacity-80 transition-all duration-300"></div>
                     
-                    <div className="relative p-2 bg-tech-badge/80 rounded-lg border border-border/30 
+                    <div className="relative p-2 bg-tech-badge/80 rounded-2xl border border-border/30 
                       backdrop-blur-sm hover:border-accent/60 transition-all duration-300 
                       hover:shadow-lg hover:shadow-accent/20 hover:scale-105">
                       
