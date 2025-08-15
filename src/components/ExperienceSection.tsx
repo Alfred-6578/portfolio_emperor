@@ -24,16 +24,16 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section className="py-20 px-6 bg-background">
-      <div className="container mx-auto">
+    <section className="py-20 px-6 vsm:px-12 md:px-16 bg-background">
+      <div className="mx-auto">
         <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-16">
           Experience
         </h2>
         
         <div className="max-w-4xl mx-auto space-y-8">
           {experiences.map((exp, index) => (
-            <div key={index} className="bg-gradient-card rounded-xl p-8 border border-border hover:border-accent transition-colors duration-300">
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
+            <div key={index} className="bg-gradient-card rounded-xl p-8 max-tny:px-6 border border-border hover:border-accent transition-colors duration-300">
+              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-2">
                 <div className="mb-4 lg:mb-0">
                   <p className="text-muted-foreground text-sm font-medium mb-2">
                     {exp.period}

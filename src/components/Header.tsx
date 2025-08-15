@@ -1,21 +1,27 @@
 import { Github, Linkedin, Twitter } from "lucide-react";
 
+
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-nav/80 backdrop-blur-md border-b border-border">
-      <div className="container mx-auto px-6 py-4">
+      <div className="mx-auto px-6 vsm:px-12 md:px-16 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-xl font-bold text-primary">
             <span className="bg-gradient-to-r from-primary to-muted-foreground bg-clip-text text-transparent">
-              UO
+              EM
             </span>
+            {/* <img
+                src={'/logo.png'}
+                alt="logo"
+                className="w-10 h-10 object-cover"
+              /> */}
           </div>
 
           {/* Social Links */}
           <div className="flex items-center space-x-4">
             <a
-              href="https://linkedin.com"
+              href="http://linkedin.com/in/chris-okeke"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg text-nav-foreground hover:bg-social-hover hover:text-primary transition-all duration-200"

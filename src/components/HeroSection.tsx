@@ -2,20 +2,20 @@ import profileImage from "@/assets/profile.png";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-hero pt-20 px-6">
-      <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
+    <section className="min-h-screen bg-gradient-hero pt-20 px-6 vsm:px-12 md:px-16">
+      <div className="w-full mx-auto grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
         {/* Left Column - Text Content */}
-        <div className="space-y-8 lg:pr-8">
-          <div className="space-y-4">
-            <h1 className="text-5xl lg:text-6xl font-bold text-primary leading-tight">
-              Uchechukwu Okoro
+        <div className="space-y-6 lg:pr-8">
+          <div className="space-y-3">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight break-words">
+              Okeke Chris Ajuluchukwu 
             </h1>
-            <p className="text-xl text-muted-foreground font-medium">
-              Backend Developer
+            <p className="text-lg sm:text-xl text-muted-foreground font-medium">
+              Software Engineer
             </p>
           </div>
           
-          <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
+          <p className="sm:text-lg text-muted-foreground leading-relaxed max-w-2xl break-words">
             I am a Software Engineer with strong knolowdge in Java programming language, 
             a passion for building robust cutting-edge applications. My journey through the 
             tech world has been a thrilling ride, combining my love for coding, and 
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <div className="w-80 h-96 lg:w-96 lg:h-[500px] rounded-2xl overflow-hidden bg-gradient-card shadow-2xl">
               <img
                 src={profileImage}
-                alt="Uchechukwu Okoro"
+                alt="Okeke Chris Ajuluchukwu"
                 className="w-full h-full object-cover"
               />
             </div>

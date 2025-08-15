@@ -14,7 +14,9 @@ export default {
 			center: true,
 			padding: '2rem',
 			screens: {
-				'2xl': '1400px'
+				'2xl': '1400px',
+				'tny': '420px',
+				'vsm': '550px',
 			}
 		},
 		extend: {
@@ -53,6 +55,11 @@ export default {
 					foreground: 'hsl(var(--tech-badge-foreground))'
 				},
 				'social-hover': 'hsl(var(--social-hover))'
+			},
+			screens: {
+				'2xl': '1400px',
+				'tny': '420px',
+				'vsm': '550px',
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',

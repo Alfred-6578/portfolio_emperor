@@ -32,8 +32,8 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section className="py-20 px-6 bg-card">
-      <div className="container mx-auto">
+    <section className="py-20 px-6 vsm:px-12 md:px-16 bg-card">
+      <div className="mx-auto">
         <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-16">
           Projects
         </h2>

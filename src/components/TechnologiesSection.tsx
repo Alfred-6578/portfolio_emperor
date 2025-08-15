@@ -7,13 +7,13 @@ const technologies = [
 
 const TechnologiesSection = () => {
   return (
-    <section className="py-20 px-6 bg-card">
-      <div className="container mx-auto">
+    <section className="py-20 px-6 vsm:px-12 md:px-16 bg-card">
+      <div className=" mx-auto">
         <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-16">
           Technologies
         </h2>
         
-        <div className="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-4 max-w-5xl ">
           {technologies.map((tech, index) => (
             <span
               key={index}
